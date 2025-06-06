@@ -1,4 +1,5 @@
 import { Code } from "lucide-react";
+import ReactGA from "react-ga4";
 
 export const AboutSection = () => {
   const roles = [
@@ -14,6 +15,14 @@ export const AboutSection = () => {
                     seamless, scalable digital experiences.`,
     },
   ];
+
+  const handleLinkClick = () => {
+    ReactGA.event({
+      category: "User Interaction",
+      action: "Download CV",
+      label: "Download CV",
+    });
+  };
 
   return (
     <section id="about" className="py-24 md:px-4 relative">
@@ -50,6 +59,7 @@ export const AboutSection = () => {
                 target="_blank"
                 href="https://bit.ly/wilfredcv"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+                onClick={handleLinkClick}
               >
                 Download CV
               </a>
