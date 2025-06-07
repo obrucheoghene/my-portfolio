@@ -1,7 +1,7 @@
 const skills = [
   { name: "TypeScript", icon: "/icons/typescript.png" },
   { name: "JavaScript", icon: "/icons/javascript.png" },
-  { name: "Pava", icon: "/icons/java.png" },
+  { name: "Java", icon: "/icons/java.png" },
   { name: "Python", icon: "/icons/python.png" },
   { name: "PHP", icon: "/icons/php.png" },
   { name: "React", icon: "/icons/react.png" },
@@ -45,6 +45,7 @@ export const SkillsSection = () => {
               duration-200
               w-full
               max-w-[120px]
+              card-hover
             "
             >
               <img

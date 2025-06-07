@@ -25,7 +25,7 @@ export const ProjectItem = (props) => {
   return (
     <div className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover">
       <div className=" relative aspect-video overflow-hidden">
-        <div className=" absolute h-full hidden group-hover:flex justify-center items-center p-2  ">
+        <div className=" absolute h-full flex lg:hidden group-hover:flex justify-center items-center p-2  ">
           <div
             className="bg-card/60 rounded-full cursor-pointer "
             onClick={showPrevImage}
@@ -33,7 +33,7 @@ export const ProjectItem = (props) => {
             <ChevronLeft />
           </div>
         </div>
-        <div className=" absolute right-0 h-full hidden group-hover:flex justify-center items-center p-2 ">
+        <div className=" absolute right-0 h-full flex lg:hidden group-hover:flex justify-center items-center p-2 ">
           <div
             className="bg-card/60 rounded-full cursor-pointer"
             onClick={showNextImage}
