@@ -9,11 +9,10 @@ export const ExperienceSection = () => {
       duration: "October 2023 - May 2025",
       logo: "/icons/zarttech.png",
       responsibilities: [
-        "Spearheaded the development of an AI-powered WebRTC video conferencing platform to enable seamless real-time communication.",
-        "Designed and implemented one-to-one and group calling features within a chat application.",
-        "Leveraged Mediasoup SFU to ensure low-latency, scalable, many-to-many video conferencing capabilities.",
-        "Integrated FFmpeg and Puppeteer to provide high-quality video/audio recording and processing capabilities.",
-        "Embedded AI-driven analytics to measure and enhance meeting efficiency and user engagement.",
+        "Architected and deployed Joble Meeting, an AI-powered WebRTC conferencing featuring multilingual transcription, actions detection, and note-taking to enhance remote team collaboration and productivity.",
+        "Designed and implemented Joble Call, a scalable one-to-one and group video calling, supporting up to 100 participants per session.",
+        "Leveraged Mediasoup SFU to engineer low-latency, scalable, many-to-many video conferencing capabilities",
+        "Integrated FFmpeg and Puppeteer to enable high-quality video/audio recording and processing.",
       ],
     },
     {
@@ -23,7 +22,7 @@ export const ExperienceSection = () => {
       duration: "June 2023 - March 2024",
       logo: "/icons/bmhm.png",
       responsibilities: [
-        "Collaborated with a team of developers to build a robust application connecting patients with therapists.",
+        "Developed secure and scalable APIs with Node.js and TypeScript to connect patients with therapists.",
         "Implemented robust authentication and authorization mechanisms, ensuring platform security.",
         "Optimized database queries and backend processes, reducing latency and improving performance.",
         "Contributed to improving code quality through constructive feedback and code reviews.",
@@ -36,9 +35,9 @@ export const ExperienceSection = () => {
       duration: "June 2023 - March 2024",
       logo: "/icons/msnc.png",
       responsibilities: [
-        "Designed and implemented a multiparty video and audio conferencing application using WebRTC and Mediasoup, enabling real-time communication for large-scale calls.",
+        "Designed and implemented a scalable multiparty video and audio conferencing system using WebRTC and Mediasoup SFU, enabling real-time, high-quality communication for large-scale group calls.",
         "Deployed and maintained a production-grade Jitsi Meet instance, ensuring reliable, high-quality internal and external meetings.",
-        "Configured and managed a BigBlueButton instance to support virtual learning and interactive online sessions",
+        "Configured and managed a BigBlueButton instance to support virtual learning and interactive online sessions.",
         "Built and integrated secure e-commerce and NGO service platforms, incorporating payment processing and streamlined workflows.",
       ],
     },

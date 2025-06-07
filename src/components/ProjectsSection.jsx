@@ -6,7 +6,7 @@ const projects = [
     id: 1,
     title: "Colloquium - Video Conferencing",
     description:
-      "Colloquium is a secure, real-time video conferencing platform designed to meet diverse and dynamic communication and collaboration needs. It offers features such as high-quality audio and video calls, screen sharing, live chat, emoji reactions, and more—ensuring seamless, engaging, and efficient virtual meetings.",
+      "Colloquium is a secure, real-time video conferencing platform built to support a wide range of communication and collaboration needs. It features high-quality audio/video calls, screen sharing, live chat, emoji reactions, and more—delivering seamless, interactive, and engaging virtual meeting experiences.",
     image: [
       "/projects/colloq1.jpg",
       "/projects/colloq2.jpg",
@@ -31,7 +31,7 @@ const projects = [
     id: 2,
     title: "Joble Meeting - AI Powered Conferencing",
     description:
-      "Joble Meeting is an AI-powered video conferencing platform designed to enhance virtual collaboration through AI transcription, real-time translation, brainstorming tools, automated actions and note-taking. Built to support seamless communication across languages and teams.",
+      "Joble Meeting is an AI-powered WebRTC video conferencing platform designed to enhance remote collaboration through features like multilingual transcription, automated action detection, brainstorming tools, and note-taking—enabling seamless, productive communication across diverse teams and languages.",
     image: [
       "/projects/joble1.jpg",
       "/projects/joble2.jpg",
@@ -54,6 +54,29 @@ const projects = [
   },
   {
     id: 3,
+    title: "Joble Call - Group Video Call",
+    description:
+      "Joble Call is a scalable one-to-one and group video calling platform supporting up to 100 participants per session with low-latency and high-quality streams. Features include adaptive bitrate control, participants management, and seamless integration with chat application.",
+    image: [
+      "/projects/joblecall1.jpg",
+      "/projects/joblecall2.jpg",
+      "/projects/joblecall3.jpg",
+    ],
+    tags: [
+      "WebRTC",
+      "MediaSoup",
+      "NodeJs",
+      "SocketIO",
+      "Typescript",
+      "GCP",
+      "React",
+      "TailwindCSS",
+    ],
+    demoUrl: "https://jobpro.app",
+    githubUrl: "#",
+  },
+  {
+    id: 4,
     title: "Christ Oyahkilome Foundation International",
     description:
       "Official Oyahkilome Foundation International website, showcasing their mission, projects, and donation initiatives with a clean, responsive design and smooth user experience.",
@@ -74,7 +97,7 @@ const projects = [
     githubUrl: "#",
   },
   {
-    id: 4,
+    id: 5,
     title: "Loveworld International Office USA",
     description:
       "Built the official website for Loveworld International Office USA, highlighting their mission, events, and outreach with a responsive design and intuitive user experience.",
