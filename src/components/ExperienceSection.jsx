@@ -11,8 +11,9 @@ export const ExperienceSection = () => {
       responsibilities: [
         "Architected and deployed Joble Meeting, an AI-powered WebRTC conferencing featuring multilingual transcription, actions detection, and note-taking to enhance remote team collaboration and productivity.",
         "Designed and implemented Joble Call, a scalable one-to-one and group video calling, supporting up to 100 participants per session.",
-        "Leveraged Mediasoup SFU to engineer low-latency, scalable, many-to-many video conferencing capabilities",
+        "Leveraged Mediasoup SFU to engineer low-latency, scalable, many-to-many video conferencing capabilities.",
         "Integrated FFmpeg and Puppeteer to enable high-quality video/audio recording and processing.",
+        "Embedded AI-driven analytics to measure and enhance meeting efficiency and user engagement.",
       ],
     },
     {

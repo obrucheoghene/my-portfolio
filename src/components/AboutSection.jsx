@@ -57,7 +57,7 @@ export const AboutSection = () => {
 
               <a
                 target="_blank"
-                href="https://bit.ly/wilfredcv"
+                href="https://drive.google.com/file/d/1lL-k66isUOvteHxbehEYz-qdGEgqMq-0/view?usp=sharing"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
                 onClick={handleLinkClick}
               >
