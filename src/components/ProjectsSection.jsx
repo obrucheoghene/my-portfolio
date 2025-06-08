@@ -72,7 +72,7 @@ const projects = [
       "React",
       "TailwindCSS",
     ],
-    demoUrl: "https://jobpro.app",
+    demoUrl: "https://joble.app",
     githubUrl: "#",
   },
   {
