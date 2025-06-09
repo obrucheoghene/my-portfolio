@@ -77,9 +77,9 @@ const projects = [
   },
   {
     id: 4,
-    title: "Christ Oyahkilome Foundation International",
+    title: "Chris Oyahkilome Foundation International",
     description:
-      "Official Oyahkilome Foundation International website, showcasing their mission, projects, and donation initiatives with a clean, responsive design and smooth user experience.",
+      "Official Chris Oyahkilome Foundation International website, showcasing their mission, projects, and donation initiatives with a clean, responsive design and smooth user experience.",
     image: [
       "/projects/cofi1.jpg",
       "/projects/cofi2.jpg",
