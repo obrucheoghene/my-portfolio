@@ -6,7 +6,7 @@ const projects = [
     id: 1,
     title: "Colloquium - Video Conferencing",
     description:
-      "Colloquium is a secure, real-time video conferencing platform built to support a wide range of communication and collaboration needs. It features high-quality audio/video calls, screen sharing, live chat, emoji reactions, and more—delivering seamless, interactive, and engaging virtual meeting experiences.",
+      "Colloquium is a secure, real-time video conferencing platform built to support a wide range of communication and collaboration needs. It offers high-quality audio and video sharing, multiple screen sharing, live chat, emoji reactions, and more. Designed to scale, Colloquium supports hundreds of participants in a single meeting, making it ideal for large-scale conferences, enterprise communications, and virtual events.",
     image: [
       "/projects/colloq1.jpg",
       "/projects/colloq2.jpg",
@@ -49,7 +49,7 @@ const projects = [
       "React",
       "TailwindCSS",
     ],
-    demoUrl: "https://meet.jobpro.app/iam-jlj-ydq?d=zarttech",
+    demoUrl: "https://joble.app",
     githubUrl: "#",
   },
   {
