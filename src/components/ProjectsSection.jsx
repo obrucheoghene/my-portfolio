@@ -77,6 +77,20 @@ const projects = [
   },
   {
     id: 4,
+    title: "Fonoster",
+    description:
+      "Fonoster is an innovative Programmable Telecommunications Stack that allows businesses to connect telephony services with the Internet entirely through a cloud-based utility",
+    image: [
+      "/projects/fonoster1.jpg",
+      "/projects/fonoster2.jpg",
+      "/projects/fonoster3.jpg",
+    ],
+    tags: ["WebRTC", "NodeJs", "Typescript", "Twilio", "VOIP", "Asterisk"],
+    demoUrl: "https://fonoster.com",
+    githubUrl: "#",
+  },
+  {
+    id: 5,
     title: "Chris Oyahkilome Foundation International",
     description:
       "Official Chris Oyahkilome Foundation International website, showcasing their mission, projects, and donation initiatives with a clean, responsive design and smooth user experience.",
@@ -97,7 +111,7 @@ const projects = [
     githubUrl: "#",
   },
   {
-    id: 5,
+    id: 6,
     title: "Loveworld International Office USA",
     description:
       "Built the official website for Loveworld International Office USA, highlighting their mission, events, and outreach with a responsive design and intuitive user experience.",
