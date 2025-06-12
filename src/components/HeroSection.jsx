@@ -1,6 +1,14 @@
 import { ArrowDown } from "lucide-react";
+import ReactGA from "react-ga4";
 
 export const HeroSection = () => {
+  const handleLinkClick = () => {
+    ReactGA.event({
+      category: "User Interaction",
+      action: "Download CV",
+      label: "Download CV",
+    });
+  };
   return (
     <section
       id="hero"
@@ -35,9 +43,18 @@ export const HeroSection = () => {
             impact at scale.
           </p>
 
-          <div className="pt-4 opacity-0 animate-fade-in-delay-4">
+          <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
             <a href="#works" className="cosmic-button">
-              View My Works
+              Work Experience
+            </a>
+
+            <a
+              target="_blank"
+              href="https://drive.google.com/file/d/1EkMkIpJDSRYQFwHSFWThGfwgo2MgveyM/view?usp=sharing"
+              className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+              onClick={handleLinkClick}
+            >
+              Download CV
             </a>
           </div>
         </div>
