@@ -35,7 +35,8 @@ export const HeroSection = () => {
               Wilfred
             </span>
           </h1>
-          <p>Full-Stack WebRTC Engineer | Real-Time Communication Specialist</p>
+          <p>Full Stack Engineer | WebRTC Engineer</p>
+
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
             I’m a Full-Stack Engineer passionate about building real-time
             communication platforms that connect people and power global
