@@ -24,7 +24,7 @@ const projects = [
       "React",
       "TailwindCSS",
     ],
-    demoUrl: "https://thecolloquium.online/lmj-wydm-vvh",
+    demoUrl: "https://colloquium.app/ypl-fgjp-xxn",
     githubUrl: "#",
   },
   {
